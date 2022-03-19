@@ -22,3 +22,7 @@ for key, val in user.items():
 
 if "name" in user:
     print("Name is available in user")
+
+# using get method on dict
+# get can be used when we are not sure about key present in dict it takes second argument as default value if no key is found
+print(user.get("random", "Not Found"))
